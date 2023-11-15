@@ -1,0 +1,2 @@
+ignores: [  'husky', 'pino', 'pino-pretty']
+skip-missing: true

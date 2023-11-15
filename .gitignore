@@ -9,4 +9,3 @@
 .netlify
 **/development.env
 **/.env
-**/build
