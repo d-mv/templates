@@ -1,0 +1,43 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitAny": false,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"jsx": "react-jsx",
+		"baseUrl": "./",
+		"paths": {
+			"@components/*": [
+				"src/shared/components/*"
+			],
+			"@shared/*": [
+				"src/shared/*"
+			],
+			"@hooks/*": [
+				"src/shared/hooks/*"
+			],
+			"@assets/*": [
+				"src/assets/*"
+			],
+			"@tools/*": [
+				"src/shared/utils/*"
+			],
+			"@pages/*": [
+				"src/pages/*"
+			],
+			"@entities/*": [
+				"src/entities/*"
+			],
+			"@types/*": [
+				"src/shared/types/*"
+			]
+		}
+	},
+	"ignorePatterns": [
+		"node_modules/",
+		"dist/",
+		"**/*.css"
+	]
+}

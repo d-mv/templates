@@ -1,0 +1,12 @@
+**/node_modules
+**/*.log
+**/dist
+**/.cache
+**/.DS_Store
+**/coverage
+**/logfile
+**/.npmrc
+.netlify
+**/development.env
+**/.env
+**/build
